@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EDB375ECE132C33943C5EF8 /* libPods-IMMessage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE654E141D2D17A20317EBA /* libPods-IMMessage.a */; };
+		A42219831F2AD773004335F1 /* YWInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A42219821F2AD773004335F1 /* YWInputTextView.m */; };
+		A42219911F2B2065004335F1 /* STEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = A42219861F2B2065004335F1 /* STEmoji.m */; };
+		A42219921F2B2065004335F1 /* STEmojiCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A42219881F2B2065004335F1 /* STEmojiCollectionView.m */; };
+		A42219931F2B2065004335F1 /* STEmojiKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A422198A1F2B2065004335F1 /* STEmojiKeyboard.m */; };
+		A42219941F2B2065004335F1 /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = A422198C1F2B2065004335F1 /* emoji.json */; };
+		A42219951F2B2065004335F1 /* keyboard_btn_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A422198D1F2B2065004335F1 /* keyboard_btn_delete@2x.png */; };
+		A42219961F2B2065004335F1 /* keyboard_btn_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A422198E1F2B2065004335F1 /* keyboard_btn_delete@3x.png */; };
+		A42219971F2B2065004335F1 /* keyboard_preview_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A422198F1F2B2065004335F1 /* keyboard_preview_bg@2x.png */; };
+		A42219981F2B2065004335F1 /* keyboard_preview_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A42219901F2B2065004335F1 /* keyboard_preview_bg@3x.png */; };
+		A4E3D14C1F298011006798B8 /* ChatroomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E3D14B1F298011006798B8 /* ChatroomModel.m */; };
 		A4EB48D71F2861BB0005D186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EB48D61F2861BB0005D186 /* main.m */; };
 		A4EB48DA1F2861BB0005D186 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EB48D91F2861BB0005D186 /* AppDelegate.m */; };
 		A4EB48DD1F2861BB0005D186 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EB48DC1F2861BB0005D186 /* ViewController.m */; };
@@ -15,6 +26,10 @@
 		A4EB48E51F2861BB0005D186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EB48E31F2861BB0005D186 /* LaunchScreen.storyboard */; };
 		A4EB48F01F2861BB0005D186 /* IMMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EB48EF1F2861BB0005D186 /* IMMessageTests.m */; };
 		A4EB48FB1F2861BC0005D186 /* IMMessageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EB48FA1F2861BC0005D186 /* IMMessageUITests.m */; };
+		A4EB49091F2861C80005D186 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A4EB49081F2861C80005D186 /* Podfile */; };
+		A4EB490E1F2864090005D186 /* ChatroomCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EB490D1F2864090005D186 /* ChatroomCollectionView.m */; };
+		A4EB49111F2864310005D186 /* ChatroomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EB49101F2864310005D186 /* ChatroomCollectionCell.m */; };
+		A4EB49141F286CE70005D186 /* ChatroomPreloadView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EB49131F286CE70005D186 /* ChatroomPreloadView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BCFBEA6812F816292D9EF7B /* Pods-IMMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMMessage.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMMessage/Pods-IMMessage.release.xcconfig"; sourceTree = "<group>"; };
+		7CE654E141D2D17A20317EBA /* libPods-IMMessage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMMessage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42219811F2AD773004335F1 /* YWInputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWInputTextView.h; sourceTree = "<group>"; };
+		A42219821F2AD773004335F1 /* YWInputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWInputTextView.m; sourceTree = "<group>"; };
+		A42219851F2B2065004335F1 /* STEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STEmoji.h; sourceTree = "<group>"; };
+		A42219861F2B2065004335F1 /* STEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STEmoji.m; sourceTree = "<group>"; };
+		A42219871F2B2065004335F1 /* STEmojiCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STEmojiCollectionView.h; sourceTree = "<group>"; };
+		A42219881F2B2065004335F1 /* STEmojiCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STEmojiCollectionView.m; sourceTree = "<group>"; };
+		A42219891F2B2065004335F1 /* STEmojiKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STEmojiKeyboard.h; sourceTree = "<group>"; };
+		A422198A1F2B2065004335F1 /* STEmojiKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STEmojiKeyboard.m; sourceTree = "<group>"; };
+		A422198C1F2B2065004335F1 /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji.json; sourceTree = "<group>"; };
+		A422198D1F2B2065004335F1 /* keyboard_btn_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_btn_delete@2x.png"; sourceTree = "<group>"; };
+		A422198E1F2B2065004335F1 /* keyboard_btn_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_btn_delete@3x.png"; sourceTree = "<group>"; };
+		A422198F1F2B2065004335F1 /* keyboard_preview_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_preview_bg@2x.png"; sourceTree = "<group>"; };
+		A42219901F2B2065004335F1 /* keyboard_preview_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_preview_bg@3x.png"; sourceTree = "<group>"; };
+		A4E3D14A1F298011006798B8 /* ChatroomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatroomModel.h; sourceTree = "<group>"; };
+		A4E3D14B1F298011006798B8 /* ChatroomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatroomModel.m; sourceTree = "<group>"; };
 		A4EB48D21F2861BB0005D186 /* IMMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4EB48D61F2861BB0005D186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4EB48D81F2861BB0005D186 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +83,14 @@
 		A4EB48F61F2861BC0005D186 /* IMMessageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMMessageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4EB48FA1F2861BC0005D186 /* IMMessageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMMessageUITests.m; sourceTree = "<group>"; };
 		A4EB48FC1F2861BC0005D186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4EB49081F2861C80005D186 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A4EB490C1F2864090005D186 /* ChatroomCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatroomCollectionView.h; sourceTree = "<group>"; };
+		A4EB490D1F2864090005D186 /* ChatroomCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatroomCollectionView.m; sourceTree = "<group>"; };
+		A4EB490F1F2864310005D186 /* ChatroomCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatroomCollectionCell.h; sourceTree = "<group>"; };
+		A4EB49101F2864310005D186 /* ChatroomCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatroomCollectionCell.m; sourceTree = "<group>"; };
+		A4EB49121F286CE70005D186 /* ChatroomPreloadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatroomPreloadView.h; sourceTree = "<group>"; };
+		A4EB49131F286CE70005D186 /* ChatroomPreloadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatroomPreloadView.m; sourceTree = "<group>"; };
+		E764F252FE772DC2E6062472 /* Pods-IMMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMMessage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMMessage/Pods-IMMessage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EDB375ECE132C33943C5EF8 /* libPods-IMMessage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +119,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24BACBCE8D28BA76B0D17AF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CE654E141D2D17A20317EBA /* libPods-IMMessage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A42219841F2B2065004335F1 /* emoji keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A42219851F2B2065004335F1 /* STEmoji.h */,
+				A42219861F2B2065004335F1 /* STEmoji.m */,
+				A42219871F2B2065004335F1 /* STEmojiCollectionView.h */,
+				A42219881F2B2065004335F1 /* STEmojiCollectionView.m */,
+				A42219891F2B2065004335F1 /* STEmojiKeyboard.h */,
+				A422198A1F2B2065004335F1 /* STEmojiKeyboard.m */,
+				A422198B1F2B2065004335F1 /* resource */,
+			);
+			path = "emoji keyboard";
+			sourceTree = "<group>";
+		};
+		A422198B1F2B2065004335F1 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				A422198C1F2B2065004335F1 /* emoji.json */,
+				A422198D1F2B2065004335F1 /* keyboard_btn_delete@2x.png */,
+				A422198E1F2B2065004335F1 /* keyboard_btn_delete@3x.png */,
+				A422198F1F2B2065004335F1 /* keyboard_preview_bg@2x.png */,
+				A42219901F2B2065004335F1 /* keyboard_preview_bg@3x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 		A4EB48C91F2861BB0005D186 = {
 			isa = PBXGroup;
 			children = (
+				A4EB49081F2861C80005D186 /* Podfile */,
 				A4EB48D41F2861BB0005D186 /* IMMessage */,
 				A4EB48EE1F2861BB0005D186 /* IMMessageTests */,
 				A4EB48F91F2861BC0005D186 /* IMMessageUITests */,
 				A4EB48D31F2861BB0005D186 /* Products */,
+				FEC1D79E75988F66909BCC66 /* Pods */,
+				24BACBCE8D28BA76B0D17AF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +179,7 @@
 		A4EB48D41F2861BB0005D186 /* IMMessage */ = {
 			isa = PBXGroup;
 			children = (
+				A4EB490B1F2863D60005D186 /* Chatroom */,
 				A4EB48D81F2861BB0005D186 /* AppDelegate.h */,
 				A4EB48D91F2861BB0005D186 /* AppDelegate.m */,
 				A4EB48DB1F2861BB0005D186 /* ViewController.h */,
@@ -140,6 +219,33 @@
 			path = IMMessageUITests;
 			sourceTree = "<group>";
 		};
+		A4EB490B1F2863D60005D186 /* Chatroom */ = {
+			isa = PBXGroup;
+			children = (
+				A42219841F2B2065004335F1 /* emoji keyboard */,
+				A4EB490C1F2864090005D186 /* ChatroomCollectionView.h */,
+				A4EB490D1F2864090005D186 /* ChatroomCollectionView.m */,
+				A4EB490F1F2864310005D186 /* ChatroomCollectionCell.h */,
+				A4EB49101F2864310005D186 /* ChatroomCollectionCell.m */,
+				A4EB49121F286CE70005D186 /* ChatroomPreloadView.h */,
+				A4EB49131F286CE70005D186 /* ChatroomPreloadView.m */,
+				A4E3D14A1F298011006798B8 /* ChatroomModel.h */,
+				A4E3D14B1F298011006798B8 /* ChatroomModel.m */,
+				A42219811F2AD773004335F1 /* YWInputTextView.h */,
+				A42219821F2AD773004335F1 /* YWInputTextView.m */,
+			);
+			path = Chatroom;
+			sourceTree = "<group>";
+		};
+		FEC1D79E75988F66909BCC66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E764F252FE772DC2E6062472 /* Pods-IMMessage.debug.xcconfig */,
+				3BCFBEA6812F816292D9EF7B /* Pods-IMMessage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4EB48FF1F2861BC0005D186 /* Build configuration list for PBXNativeTarget "IMMessage" */;
 			buildPhases = (
+				2B9A61AA0314BBA671F87FC8 /* [CP] Check Pods Manifest.lock */,
 				A4EB48CE1F2861BB0005D186 /* Sources */,
 				A4EB48CF1F2861BB0005D186 /* Frameworks */,
 				A4EB48D01F2861BB0005D186 /* Resources */,
+				2245FDCBC9861B8542E4EBE4 /* [CP] Embed Pods Frameworks */,
+				78BA9EF434510A4495EED378 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,8 +356,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4EB48E51F2861BB0005D186 /* LaunchScreen.storyboard in Resources */,
+				A42219971F2B2065004335F1 /* keyboard_preview_bg@2x.png in Resources */,
 				A4EB48E21F2861BB0005D186 /* Assets.xcassets in Resources */,
+				A42219981F2B2065004335F1 /* keyboard_preview_bg@3x.png in Resources */,
+				A42219961F2B2065004335F1 /* keyboard_btn_delete@3x.png in Resources */,
+				A42219941F2B2065004335F1 /* emoji.json in Resources */,
+				A4EB49091F2861C80005D186 /* Podfile in Resources */,
 				A4EB48E01F2861BB0005D186 /* Main.storyboard in Resources */,
+				A42219951F2B2065004335F1 /* keyboard_btn_delete@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +383,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2245FDCBC9861B8542E4EBE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMMessage/Pods-IMMessage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B9A61AA0314BBA671F87FC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78BA9EF434510A4495EED378 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMMessage/Pods-IMMessage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4EB48CE1F2861BB0005D186 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -275,6 +438,14 @@
 			files = (
 				A4EB48DD1F2861BB0005D186 /* ViewController.m in Sources */,
 				A4EB48DA1F2861BB0005D186 /* AppDelegate.m in Sources */,
+				A42219921F2B2065004335F1 /* STEmojiCollectionView.m in Sources */,
+				A4E3D14C1F298011006798B8 /* ChatroomModel.m in Sources */,
+				A4EB490E1F2864090005D186 /* ChatroomCollectionView.m in Sources */,
+				A42219831F2AD773004335F1 /* YWInputTextView.m in Sources */,
+				A4EB49141F286CE70005D186 /* ChatroomPreloadView.m in Sources */,
+				A42219911F2B2065004335F1 /* STEmoji.m in Sources */,
+				A4EB49111F2864310005D186 /* ChatroomCollectionCell.m in Sources */,
+				A42219931F2B2065004335F1 /* STEmojiKeyboard.m in Sources */,
 				A4EB48D71F2861BB0005D186 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +595,7 @@
 		};
 		A4EB49001F2861BC0005D186 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E764F252FE772DC2E6062472 /* Pods-IMMessage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IMMessage/Info.plist;
@@ -435,6 +607,7 @@
 		};
 		A4EB49011F2861BC0005D186 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCFBEA6812F816292D9EF7B /* Pods-IMMessage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IMMessage/Info.plist;
@@ -509,6 +682,7 @@
 				A4EB49011F2861BC0005D186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4EB49021F2861BC0005D186 /* Build configuration list for PBXNativeTarget "IMMessageTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +691,7 @@
 				A4EB49041F2861BC0005D186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4EB49051F2861BC0005D186 /* Build configuration list for PBXNativeTarget "IMMessageUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +700,7 @@
 				A4EB49071F2861BC0005D186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
